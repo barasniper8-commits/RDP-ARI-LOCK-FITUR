@@ -64,7 +64,7 @@ jobs:
 
       - name: Konfigurasi RDP, Firewall & Power Options
         run: |
-          net user runneradmin "Lumajanggratis133!@"
+          net user runneradmin "AriantoLumajang123!@"
           Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server' -name "fDenyTSConnections" -value 0
           Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
           Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp' -name "UserAuthentication" -value 1
